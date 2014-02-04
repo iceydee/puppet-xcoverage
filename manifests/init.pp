@@ -1,3 +1,8 @@
+# Public: Install Xcoverage visual code coverage tool to /Applications.
+#
+# Examples
+#
+#   include xcoverage
 class xcoverage {
   package { 'Xcoverage visual code coverage reports for OSX':
     provider => 'compressed_app',
